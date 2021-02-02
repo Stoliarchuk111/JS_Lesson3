@@ -143,8 +143,8 @@ console.log(myPow(2, 3, myPrint)); // 2^3=8
  */
 
 function fullInfo() {
-    return `${this.name}`, `${this.model}, ${this.engine}, year ${this.year}, ${this.used}`;
-}
+    return `${this.name} ${this.model}, ${this.engine}cc, year ${this.year}, ${this.used}`;
+  }
 
 
 let yearNow = new Date().getFullYear();
